@@ -62,7 +62,7 @@ export default class Boot extends Phaser.Scene {
    */
   preload() {
     // Con setPath podemos establecer el prefijo que se añadirá a todos los load que aparecen a continuación
-    this.load.setPath('assets/sprites/');
+   // this.load.setPath('assets/sprites/');
     this.load.spritesheet('player_spritesheet', player, { frameWidth: 32, frameHeight: 32 });
     this.load.spritesheet('player_idle',playerIdle, { frameWidth: 32, frameHeight: 32 })
     this.load.spritesheet('player_dead',playerDead, { frameWidth: 32, frameHeight: 32 })
